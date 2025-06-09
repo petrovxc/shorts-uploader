@@ -2,7 +2,7 @@
 
 A simple tool for uploading your [TikTok](https://tiktok.com) videos to [YouTube](https://youtube.com) shorts. It copies the same hashtags and description from the TikTok video, makling this an easy 2-click upload.
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/petrovxc/shorts-uploader/refs/heads/main/screenshot.png))
+![alt text](https://raw.githubusercontent.com/petrovxc/shorts-uploader/refs/heads/main/screenshot.png)
 
 Uploaded and working (09/06/25)
 
