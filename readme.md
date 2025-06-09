@@ -39,3 +39,10 @@ This is an extract with the links and where they are stored on the TikTok server
               "width": 576
             },
 ```
+
+#### Set Up
+
+Download all imports, register to YouTube Cloud Console Api v3 and whitelist your email for uploading. A great Tutorial on obtaining and registering to v3 is [this video!](https://www.youtube.com/watch?v=sp3qM2URcig) After having registered and getting the client secret, paste the content in /utils/client.json and run the main.py
+
+If you have further questions open an issue and I'll gladly help :)
+#
