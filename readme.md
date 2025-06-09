@@ -33,3 +33,9 @@ This is where to find the link to download the video without watermark:
             },
 ```
 This is an extract with the links and where they are stored on the TikTok server.
+
+Api:
+```py
+id  = "7513300401999858966" # id of any tiktok video in regular format
+api = f"https://api16-normal-useast5.us.tiktokv.com/tiktok/v1/videos/detail/?aweme_ids=[{id}]" # the api that gives you all information about the video
+```
