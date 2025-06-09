@@ -13,7 +13,14 @@ If you have any questions on the TikTok Mobile Api, message me via email.
 
 ## TikTok Api Response:
 
-This is where to find the link to download the video without watermark:
+Api used to find the link to download the video without watermark:
+
+```py
+id  = "7513300401999858966" # id of any tiktok video in regular format
+api = f"https://api16-normal-useast5.us.tiktokv.com/tiktok/v1/videos/detail/?aweme_ids=[{id}]" # api containing information about the video
+```
+
+This is an extract with the links and where they are stored on the TikTok server.
 
 ```
 "play_addr": {
@@ -31,11 +38,4 @@ This is where to find the link to download the video without watermark:
               "url_prefix": null,
               "width": 576
             },
-```
-This is an extract with the links and where they are stored on the TikTok server.
-
-Api:
-```py
-id  = "7513300401999858966" # id of any tiktok video in regular format
-api = f"https://api16-normal-useast5.us.tiktokv.com/tiktok/v1/videos/detail/?aweme_ids=[{id}]" # api containing information about the video
 ```
