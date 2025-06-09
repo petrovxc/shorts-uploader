@@ -39,7 +39,6 @@ def auth_yt():
     return yt
 
 def upload(id: str, comment: str):
-    comment      = comment.split('#ad ')[1]
     be, se, af   = comment.partition('#')
     data         = json.load(open("./utils/config.json"))
     request_body = {"snippet": {"categoryId": "22", "title": be, "description": f"#{af}", "tags": []}, "status":{"privacyStatus": data['status']}}
